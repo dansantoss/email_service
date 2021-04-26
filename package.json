@@ -1,0 +1,27 @@
+{
+  "name": "email_service_spreadsheet",
+  "version": "1.0.0",
+  "description": "Projeto responsável por enviar e-mails contendo chaves de confirmação para acesso aos eventos dos Jovens Origem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cls && node main/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzdandan/email_service_spreadsheet.git"
+  },
+  "author": "Daniel Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kzdandan/email_service_spreadsheet/issues"
+  },
+  "homepage": "https://github.com/kzdandan/email_service#readme",
+  "dependencies": {
+    "google-spreadsheet": "^3.1.15",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.18",
+    "sequelize": "^6.5.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
